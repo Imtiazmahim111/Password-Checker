@@ -15,10 +15,10 @@
         Error! Password is Mismatch
     </div>
     <div class="field">
-        <input type="password"  id="password_1" suggested="new-password" placeholder="Enter Password">
+        <input onkeyup="active()" type="password"  id="password_1"  placeholder="Enter Password">
     </div>
     <div class="field">
-        <input type="password" id="password_2" suggested ='new-password' placeholder="Re-enter Password">
+        <input onkeyup="active_2()" type="password" id="password_2" disabled placeholder="Re-enter Password">
         <div class="show">SHOW</div>
     </div>
     <button>Check</button>
